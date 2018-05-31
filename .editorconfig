@@ -1,0 +1,36 @@
+# EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs
+# http://editorconfig.org
+#
+# This config follows the best practices of https://google.github.io/styleguide/jsguide.html#whitespace-characters
+# which today is the de facto standard.
+#
+# It closely follows the configs for the main OSS projects:
+# - Angular   https://github.com/angular/angular.js/blob/master/.editorconfig
+# - React     https://github.com/facebook/react/blob/master/.editorconfig
+# - Bootstrap https://github.com/ember-cli/ember-cli/blob/master/.editorconfig
+# etc.
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+max_line_length = 120
+
+[*.java]
+indent_size = 4
+
+[*.cls]
+indent_size = 4
+
+[*.xml]
+indent_size = 4
+
+[*.md]
+trim_trailing_whitespace = false
+
+[Makefile]
+indent_style = tab
