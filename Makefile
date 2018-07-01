@@ -1,5 +1,5 @@
 # Set preferred rancher version.
-VERSION=v2.0.2
+VERSION=v2.0.4
 
 # Set rancher persistent storage for volume mapping.
 STORAGE=${PWD}/data
